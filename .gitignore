@@ -2,6 +2,7 @@
 *.suo
 *.user
 *.sln.docstates
+privatesettings.config
 
 # Build results
 [Dd]ebug/
