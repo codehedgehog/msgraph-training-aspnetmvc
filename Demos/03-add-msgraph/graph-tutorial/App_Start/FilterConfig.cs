@@ -1,13 +1,12 @@
-﻿using System.Web;
-using System.Web.Mvc;
-
-namespace graph_tutorial
+﻿namespace graph_tutorial
 {
-    public class FilterConfig
-    {
-        public static void RegisterGlobalFilters(GlobalFilterCollection filters)
-        {
-            filters.Add(new HandleErrorAttribute());
-        }
-    }
+	using System.Web.Mvc;
+
+	public class FilterConfig
+	{
+		public static void RegisterGlobalFilters(GlobalFilterCollection filters)
+		{
+			filters.Add(new HandleErrorAttribute());
+		}
+	}
 }
